@@ -12,3 +12,14 @@ git push -u origin master
 git add .
 git commit -m "message"
 git push
+
+
+// clone 
+
+git clone https://github.com/tonmoy1996/Web-Development-Bootcamp.git
+
+
+//pull 
+
+git pull
+

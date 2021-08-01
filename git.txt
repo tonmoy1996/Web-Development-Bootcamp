@@ -1,0 +1,11 @@
+
+//Initital code 
+git init
+git add .
+git commit -m "message"
+git branch -M master
+git remote add origin https://github.com/tonmoy1996/Web-Development-Bootcamp.git
+git push -u origin master
+
+
+//

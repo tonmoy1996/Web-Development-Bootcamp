@@ -3,7 +3,7 @@
 //  check is number is divisible by i 
 // if divisible then we can say it's not a prime number or it's a prime number 
 
-$number = 27;
+$number = 29;
 $isPrime = true;
 for ($i = 2; $i <= $number / 2; $i++) {
     if ($number % $i == 0) {

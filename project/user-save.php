@@ -10,7 +10,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $address  = $_POST["address"];
     
     $sql =
-        "insert into users(name, phone, email, password, address) values ('$name','$phone','$email','$password','$address')";
+        "insert into users(name, phone, email, password, address,role_id) values ('$name','$phone','$email','$password','$address',2)";
     if($con->query($sql)){
         echo "Inserted successfully";
     } else{
